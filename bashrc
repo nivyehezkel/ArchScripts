@@ -9,7 +9,6 @@ alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias ??='readlink -f'
 alias g='gvim -o'
-alias rambox='~/.Rambox/rambox'
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
